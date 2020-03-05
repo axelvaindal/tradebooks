@@ -1,0 +1,52 @@
+{
+  "name": "tradebook",
+  "private": true,
+  "scripts": {
+    "local-start": "MONGO_URL='mongodb+srv://avaindal:clSymgztU7rXQpN6@tradebooks-hvhzm.gcp.mongodb.net/tradebooks?retryWrites=true&w=majority' meteor run",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.4.5",
+    "bcrypt": "3.0.6",
+    "bootstrap": "4.3.1",
+    "classnames": "2.2.6",
+    "colors": "1.4.0",
+    "data-manufactory": "1.2.1",
+    "is-isbn": "1.1.0",
+    "jquery": "3.4.1",
+    "jstoolbox": "1.1.0",
+    "lodash": "4.17.15",
+    "meteor-node-stubs": "0.4.1",
+    "popper.js": "1.15.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-mounter": "1.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
+    "jest": "24.9.0",
+    "xo": "0.25.3"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    }
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "plugins": [
+          "transform-es2015-modules-commonjs"
+        ]
+      }
+    }
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "singleQuote": false,
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true
+  }
+}

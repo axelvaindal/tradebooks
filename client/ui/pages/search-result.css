@@ -1,0 +1,28 @@
+.search-result .container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.search-result .container .row > [class*="col-"] {
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.search-result .search-panel {
+  margin-bottom: 30px;
+}
+
+.search-result .search-panel h2 {
+  margin-bottom: 20px;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+
+.search-result .search-result-not-found {
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+}

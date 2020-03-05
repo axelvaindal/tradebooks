@@ -1,0 +1,54 @@
+.book-card .card {
+  border-radius: 0;
+  font-family: "Courier New", Courier, monospace;
+  box-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+.book-card .card img {
+  height: 225px;
+  width: 100%;
+  display: block;
+  border-radius: 0px;
+  border: none;
+}
+
+.book-card .card .card-title {
+  font-size: 1rem;
+  color: #202020;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 1.5rem;
+  line-height: 1.3rem;
+}
+
+.book-card .card .card-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.book-card .card .points-price {
+  color: #872336;
+  font-weight: bold;
+}
+
+.book-card .card .btn-group .btn {
+  border-color: #872336;
+  color: #872336;
+  border-radius: 0;
+}
+
+.book-card .card .btn-group .btn:active,
+.book-card .card .btn-group .btn:hover {
+  background-color: #872336;
+  color: white;
+}
+
+.book-card .card .btn-group .btn:active:focus,
+.book-card .card .btn-group .btn:focus {
+  box-shadow: none;
+}
+
+.book-card .card-actions-items i:hover {
+  cursor: pointer;
+  font-size: 20px;
+}

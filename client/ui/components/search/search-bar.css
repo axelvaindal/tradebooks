@@ -1,0 +1,67 @@
+.search-bar  {
+  margin-bottom: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.search-bar .btn-search {
+  background-color: #872336;
+  color: white;
+  border-radius: 0px;
+}
+
+.search-bar .form-control {
+  color: #6d071a;
+  background-clip: unset;
+}
+
+.search-bar input {
+  height: 50px;
+  border-radius: 0px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.search-bar .btn-search:focus,
+.search-bar input:focus {
+  box-shadow: none;
+}
+
+.search-bar input::-webkit-input-placeholder,
+.search-bar input:-ms-input-placeholder,
+.search-bar input:-moz-placeholder,
+.search-bar input::-moz-placeholder {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.search-bar .search-topic {
+  background-color: #872336;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 0px;
+}
+
+.search-bar .search-topic:hover,
+.search-bar .search-topic:focus,
+.search-bar .search-topic:active {
+  color: white;
+  box-shadow: none;
+}
+
+.search-bar .topic-dropdown a {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.search-bar .topic-dropdown .topic-dropdown-menu {
+  left: -50px;
+  border-radius: 0px;
+}
+
+.search-bar .topic-dropdown .topic-dropdown-menu a {
+  color: #872336;
+}
+
+.search-bar .topic-dropdown .topic-dropdown-menu a:hover {
+  background-color: #872336;
+  color: white;
+}

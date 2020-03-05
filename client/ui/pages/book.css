@@ -1,0 +1,36 @@
+.book {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.book .book-description {
+  text-align: justify;
+}
+
+.book .sale-orders-table {
+  color: white;
+}
+
+.book .sale-orders-table .button-td {
+  padding: 0px;
+  height: 50px;
+}
+
+.book .sale-orders-table .btn {
+  border-color: #872336;
+  color: white;
+  background-color: #872336;
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.book .sale-orders-table .btn:active,
+.book .sale-orders-table .btn:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.book .sale-orders-table .btn:active:focus,
+.book .sale-orders-table .btn:focus {
+  box-shadow: none;
+}

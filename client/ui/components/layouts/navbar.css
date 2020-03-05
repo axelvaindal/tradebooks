@@ -1,0 +1,44 @@
+.layout-navbar {
+  background-color: #872336;
+  color: white;
+  height: 80px;
+}
+
+.layout-navbar .navbar-brand {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2em;
+}
+
+.layout-navbar .navigation {
+  margin-left: 30px;
+}
+
+.layout-navbar .navigation a {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  margin-left: 20px;
+}
+
+.layout-navbar .navigation a:hover {
+  text-decoration: underline;
+}
+
+.layout-navbar .profile-dropdown a {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.layout-navbar .profile-dropdown .profile-dropdown-menu {
+  left: -50px;
+  border-radius: 0px;
+}
+
+.layout-navbar .profile-dropdown .profile-dropdown-menu a {
+  color: #872336;
+}
+
+.layout-navbar .profile-dropdown .profile-dropdown-menu a:hover {
+  background-color: #872336;
+  color: white;
+}

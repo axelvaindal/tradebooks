@@ -1,0 +1,19 @@
+.infinite-scroller .show-more-btn {
+  border-color: #872336;
+  background-color: #872336;
+  color: white;
+  border-radius: 0;
+  margin: 10px auto;
+  margin-top: 20px;
+}
+
+.infinite-scroller .show-more-btn:active,
+.infinite-scroller .show-more-btn:hover {
+  background-color: #872336;
+  color: white;
+}
+
+.infinite-scroller .show-more-btn:active:focus,
+.infinite-scroller .show-more-btn:focus {
+  box-shadow: none;
+}
